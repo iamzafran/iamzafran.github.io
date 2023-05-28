@@ -3,6 +3,7 @@ title:  "Modelling Short Time-Series with Prior Information via Tensorflow-Proba
 mathjax: true
 layout: post
 categories: media
+image: title.svg
 ---
 
 ![Short Time-Series](https://raw.githubusercontent.com/iamzafran/iamzafran.github.io/master/Tutorials/Prior%20Knowledge%20Time%20Series/title.svg)
