@@ -229,7 +229,7 @@ for _ in range(5000):
 {% endhighlight %}
 
 
-![Temperature NLL](https://raw.githubusercontent.com/iamzafran/iamzafran.github.io/6409af1ca1a12a55cfd2096a1b5c1b5755553c83/Tutorials/Prior%20Knowledge%20Time%20Series/temp_nll.svg)
+![Temperature NLL](https://raw.githubusercontent.com/iamzafran/iamzafran.github.io/gh-pages/Tutorials/Prior%20Knowledge%20Time%20Series/temp_nll.svg)
 
 #### Sampling of the Posterior via MCMC
 
@@ -306,9 +306,9 @@ posterior = {k:np.swapaxes(tf.squeeze(v).numpy(), 1, 0)
 
 Fantastic!!! The results from the sampling shows that the parameters converges to a distribution. Here, it shows that all parameters resembles a Normal distrbution centered around the mean which also happens to be around the MAP estimate.
 
-![Temperature Trace](https://raw.githubusercontent.com/iamzafran/iamzafran.github.io/6409af1ca1a12a55cfd2096a1b5c1b5755553c83/Tutorials/Prior%20Knowledge%20Time%20Series/temp_trace.svg)
+![Temperature Trace](https://github.com/iamzafran/iamzafran.github.io/blob/a2eac6696e9f4db6ed45e5bd381edac7f6d68e37/Tutorials/Prior%20Knowledge%20Time%20Series/temp_trace.svg)
 
-![Temperature Forest](https://raw.githubusercontent.com/iamzafran/iamzafran.github.io/6409af1ca1a12a55cfd2096a1b5c1b5755553c83/Tutorials/Prior%20Knowledge%20Time%20Series/temp_forest.svg)
+![Temperature Forest](https://raw.githubusercontent.com/iamzafran/iamzafran.github.io/gh-pages/Tutorials/Prior%20Knowledge%20Time%20Series/temp_forest.svg)
 
 ### Posterior Predictive of the Temperature Model
 
