@@ -193,7 +193,7 @@ temp_pred = tf.squeeze(temp_pred).numpy()
 
 {% endhighlight %}
 
-![Temperature Prior](https://raw.githubusercontent.com/iamzafran/iamzafran.github.io/21f72099d6495a9444b46a581176bf5f59e14b32/Tutorials/Prior%20Knowledge%20Time%20Series/temp_prior_dist.svg)
+![Temperature Prior](https://raw.githubusercontent.com/iamzafran/iamzafran.github.io/gh-pages/Tutorials/Prior%20Knowledge%20Time%20Series/temp_prior_dist.svg)
 
 ### Fitting the Temperature Model
 
