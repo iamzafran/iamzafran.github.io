@@ -306,7 +306,7 @@ posterior = {k:np.swapaxes(tf.squeeze(v).numpy(), 1, 0)
 
 Fantastic!!! The results from the sampling shows that the parameters converges to a distribution. Here, it shows that all parameters resembles a Normal distrbution centered around the mean which also happens to be around the MAP estimate.
 
-![Temperature Trace](https://github.com/iamzafran/iamzafran.github.io/blob/a2eac6696e9f4db6ed45e5bd381edac7f6d68e37/Tutorials/Prior%20Knowledge%20Time%20Series/temp_trace.svg)
+![Temperature Trace](https://raw.githubusercontent.com/iamzafran/iamzafran.github.io/881731e629b07b67419ec6039c276290f1fc70b0/Tutorials/Prior%20Knowledge%20Time%20Series/temp_trace.svg)
 
 ![Temperature Forest](https://raw.githubusercontent.com/iamzafran/iamzafran.github.io/gh-pages/Tutorials/Prior%20Knowledge%20Time%20Series/temp_forest.svg)
 
@@ -635,7 +635,7 @@ samples, sampler_stat = sample_sales_model_posterior(
 
 Looking at the traceplots and the forest plots, we are satisfied with the result of the samples from the posterior. The R-Hat values also produces values close to zero for all parameters, which indicates that the sampling is successful.
 
-![Sales Trace](https://raw.githubusercontent.com/iamzafran/iamzafran.github.io/9ebcd8cdb86506b0c536745a43fe34b4b8228086/Tutorials/Prior%20Knowledge%20Time%20Series/sales_trace.svg)
+![Sales Trace](https://raw.githubusercontent.com/iamzafran/iamzafran.github.io/881731e629b07b67419ec6039c276290f1fc70b0/Tutorials/Prior%20Knowledge%20Time%20Series/sales_trace.svg)
 
 ![Sales Forest](https://raw.githubusercontent.com/iamzafran/iamzafran.github.io/master/Tutorials/Prior%20Knowledge%20Time%20Series/sales_forest.svg)
 
@@ -701,7 +701,7 @@ sales_samples = sales_posterior.sample().numpy()
 
 {% endhighlight %}
 
-![Sales Posterior](https://raw.githubusercontent.com/iamzafran/iamzafran.github.io/17a5ee5c00159495722655b1184839d6ece3bb1d/Tutorials/Prior%20Knowledge%20Time%20Series/sales_posterior.svg)
+![Sales Posterior](https://raw.githubusercontent.com/iamzafran/iamzafran.github.io/gh-pages/Tutorials/Prior%20Knowledge%20Time%20Series/sales_posterior.svg)
 
 Good. So far, we succesfully replicate the result of the sales model from the [original blog post](https://juanitorduz.github.io/short_time_series_pymc/). Next, we will make forecasting of future observations.
 
@@ -744,4 +744,4 @@ for i in range(n_train, n):
 
 Fantastic. The result looks similar to the [original post](https://juanitorduz.github.io/short_time_series_pymc/) using PyMC3.
 
-![Sales Forecast](https://raw.githubusercontent.com/iamzafran/iamzafran.github.io/fe76ba4ab55405e9c9d7dfd75c252378bcf350a3/Tutorials/Prior%20Knowledge%20Time%20Series/sales_predictive_posterior.svg)
+![Sales Forecast](https://raw.githubusercontent.com/iamzafran/iamzafran.github.io/gh-pages/Tutorials/Prior%20Knowledge%20Time%20Series/sales_predictive_posterior.svg)
