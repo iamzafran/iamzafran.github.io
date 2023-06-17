@@ -16,7 +16,6 @@ GCN was originally proposed to address the limitation of Manifold Regularization
 $$
 \mathcal{L} = |f(X)-Y| + λ\mathcal{L_{reg}}
 $$
-<br>
 where
 $$
 \mathcal{L_{reg}}=f(X)Lf(X) 
