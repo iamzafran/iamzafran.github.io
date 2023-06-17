@@ -23,7 +23,7 @@ $$
 $$
 <br>
 
-which is a sum of the supervised loss $$|f(X)-Y|$$ and the semi-supervised loss $$\mathcal{L_{reg}}$$.
+which is a sum of the supervised loss $$\lvert f(X)-Y \rvert$$ and the semi-supervised loss $$\mathcal{L_{reg}}$$.
 
 The semi-supervised loss $$\mathcal{L_{reg}}$$ enforces the assumption that similar data will belong to similar labels. Therefore, penalizing the model if it predicts different labels between pairs of similar data. 
 
